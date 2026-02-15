@@ -27,7 +27,7 @@ const achievements = [
         title: 'Hack4Purpose 2024',
         place: 'Top 100 Winning Teams',
         prize: 'National Level Recognition',
-        description: 'Developed an innovative security solution for protecting digital infrastructure. Competed against 500+ teams nationwide.',
+        description: 'Developed Eco - G bricks, an Environment Sustainability solution creating eco-friendly bricks from plastic waste to reduce carbon emissions. Competed against 8500+ registered teams nationwide.',
         images: [
             '/images/hack4purpose_1.png',
             '/images/hack4purpose_2.png',
@@ -42,7 +42,7 @@ const achievements = [
         title: 'IIIT-Delhi Pitch-Cafe 7.0',
         place: 'First Runner-up (2nd)',
         prize: '₹20,000 Cash Prize',
-        description: 'Pitched a cybersecurity startup idea focused on automated vulnerability detection using AI/ML techniques.',
+        description: 'Pitched Eco - G bricks, an innovative solution utilizing plastic waste for eco-friendly construction. Recognized for its business viability and environmental impact.',
         images: [
             '/images/pitchcafe_1.png',
             '/images/pitchcafe_2.png',
@@ -56,7 +56,7 @@ const achievements = [
         title: 'Y2E Ideathon',
         place: 'First Runner-up (2nd)',
         prize: '₹10,000 Cash Prize',
-        description: 'Presented an entrepreneurial solution combining cybersecurity with emerging technologies for enterprise protection.',
+        description: 'Presented Eco - G bricks as a sustainable entrepreneurial venture. Demonstrated how transforming plastic waste into construction material creates a scalable impact.',
         images: [
             '/images/y2e_1.png',
             '/images/y2e_2.png',
