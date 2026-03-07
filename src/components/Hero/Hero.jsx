@@ -475,7 +475,7 @@ function Hero() {
                         transition={{ delay: 1.2 }}
                     >
                         <div className={styles.stat}>
-                            <span className={styles.statNumber}>9.09</span>
+                            <span className={styles.statNumber}>9.05</span>
                             <span className={styles.statLabel}>CGPA</span>
                         </div>
                         <div className={styles.statDivider}></div>

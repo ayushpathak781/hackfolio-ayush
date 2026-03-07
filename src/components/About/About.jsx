@@ -103,7 +103,7 @@ function About() {
                                     <span className={styles.outputKey}>Role:</span> Security Researcher<br />
                                     <span className={styles.outputKey}>Education:</span> B.E. CSE (Cyber Security)<br />
                                     <span className={styles.outputKey}>College:</span> Chennai Institute of Technology<br />
-                                    <span className={styles.outputKey}>CGPA:</span> 9.09 / 10<br />
+                                    <span className={styles.outputKey}>CGPA:</span> 9.05 / 10<br />
                                     <span className={styles.outputKey}>Batch:</span> 2022 - 2026<br />
                                 </span>
                                 <br />
@@ -156,7 +156,7 @@ function About() {
                             transition={{ delay: 0.5 }}
                         >
                             <p className={styles.bio}>
-                                I'm Karthigaiselvam R — a developer with a security-first mindset. Pursuing B.E. CSE (Cyber Security) at Chennai Institute of Technology with 9.09 CGPA. Completed 5 industry internships at Palo Alto Networks, RecruitNxt Technologies, THECYBERHOST, Learnflu & AirosSpace R&D — building expertise across mobile pentesting, cloud security & threat intelligence.
+                                I'm Karthigaiselvam R — a developer with a security-first mindset. Pursuing B.E. CSE (Cyber Security) at Chennai Institute of Technology with 9.05 CGPA. Completed 5 industry internships at Palo Alto Networks, RecruitNxt Technologies, THECYBERHOST, Learnflu & AirosSpace R&D — building expertise across mobile pentesting, cloud security & threat intelligence.
                             </p>
                         </motion.div>
 
@@ -184,7 +184,7 @@ function About() {
 
                         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '8px' }}>
                             <motion.a
-                                href="https://drive.google.com/file/d/1TfsRE5sKNhvGdxzgWtq-4RAZnt-JfFSO/view"
+                                href="https://drive.google.com/file/d/1rZPhoGMa2dzdyKX0kuR0vKv8vq9Oeysi/view"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn btn-primary"
