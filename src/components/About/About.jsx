@@ -184,7 +184,7 @@ function About() {
 
                         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '8px' }}>
                             <motion.a
-                                href="https://drive.google.com/file/d/1rZPhoGMa2dzdyKX0kuR0vKv8vq9Oeysi/view"
+                                href="https://drive.google.com/file/d/1lXWJv1ttyhQlEEeKlDJYr1b7A33tFwye/view"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn btn-primary"
