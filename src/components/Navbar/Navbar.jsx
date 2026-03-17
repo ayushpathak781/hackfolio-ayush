@@ -51,11 +51,11 @@ function Navbar() {
                     href="#home"
                     className={styles.logo}
                     whileHover={{ scale: 1.02 }}
-                    aria-label="Karthigaiselvam Home"
+                    aria-label="Ayush Pathak Home"
                 >
                     <span className={styles.logoSymbol} aria-hidden="true">&lt;</span>
-                    <span className={styles.logoText}>Karthi</span>
-                    <span className={styles.logoAccent} aria-hidden="true">...R</span>
+                    <span className={styles.logoText}>Ayush</span>
+                    <span className={styles.logoAccent} aria-hidden="true">...P</span>
                     <span className={styles.logoSymbol} aria-hidden="true">/&gt;</span>
                 </motion.a>
 

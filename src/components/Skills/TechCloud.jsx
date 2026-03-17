@@ -3,11 +3,11 @@ import TagCloud from 'TagCloud'
 import styles from './Skills.module.css'
 
 const mySkills = [
-    'JavaScript', 'React', 'Node.js', 'Python',
-    'C++', 'Git', 'Linux', 'Docker',
-    'Figma', 'Burp Suite', 'Metasploit', 'Nmap',
-    'Wireshark', 'Bash', 'SQL', 'MongoDB',
-    'Tailwind', 'Framer', 'Three.js', 'Vite'
+    'React', 'Next.js', 'Node.js', 'TypeScript',
+    'Tailwind', 'Express', 'PostgreSQL', 'Supabase',
+    'MongoDB', 'Git', 'Vercel', 'REST APIs',
+    'JWT', 'Framer', 'AI Agents', 'LLMs',
+    'System Design', 'Automation', 'JavaScript', 'Vite'
 ]
 
 const TechCloud = () => {

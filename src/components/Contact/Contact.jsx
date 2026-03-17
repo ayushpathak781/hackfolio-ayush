@@ -46,19 +46,19 @@ const MessageCircle = () => (
 const socialLinks = [
     {
         name: 'GitHub',
-        url: 'https://github.com/Karthigaiselvam-R-official',
+        url: 'https://github.com/ayushpathak781',
         icon: <Github />,
         color: 'primary'
     },
     {
         name: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/karthigaiselvam-r-7b9197258/',
+        url: 'https://www.linkedin.com/in/ayush-pathak-8137151a9',
         icon: <LinkedIn />,
         color: 'secondary'
     },
     {
         name: 'Email',
-        url: 'mailto:karthigaiselvamr.cs2022@gmail.com',
+        url: 'mailto:ayushpathak98812@gmail.com',
         icon: <Mail />,
         color: 'accent'
     },
@@ -196,15 +196,15 @@ function Contact() {
 
                         <p className={styles.description}>
                             I'm currently available for internships, freelance work, and full-time opportunities.
-                            Whether you need a security assessment, want to collaborate on a project,
-                            or just want to connect - feel free to reach out!
+                            Whether you need AI automation, a full-stack platform, or want to collaborate on a project
+                            - feel free to reach out!
                         </p>
 
                         <div className={styles.contactDetails}>
                             <div className={styles.detailItem}>
                                 <Mail />
-                                <a href="mailto:karthigaiselvamr.cs2022@gmail.com">
-                                    karthigaiselvamr.cs2022@gmail.com
+                                <a href="mailto:ayushpathak98812@gmail.com">
+                                    ayushpathak98812@gmail.com
                                 </a>
                             </div>
                         </div>

@@ -74,7 +74,7 @@ const Intro = ({ onComplete }) => {
                             }
                         }}
                     >
-                        {Array.from("KARTHIGAISELVAM R").map((char, index) => (
+                        {Array.from("AYUSH PATHAK").map((char, index) => (
                             <motion.span
                                 key={index}
                                 variants={{
@@ -108,9 +108,9 @@ const Intro = ({ onComplete }) => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 1.3, duration: 0.6 }}
                     >
-                        SECURITY RESEARCHER — BUILDING SECURE SYSTEMS.
+                        AI SYSTEMS & DEVELOPMENT ENGINEER — BUILDING SCALABLE SYSTEMS.
                         <br />
-                        BREAKING VULNERABILITIES: PRECISE, METHODICAL, IMPACTFUL.
+                        AUTOMATING WORKFLOWS: PRECISE, METHODICAL, IMPACTFUL.
                     </motion.p>
 
                     {/* Pulsing Dot */}

@@ -51,7 +51,7 @@ const Connect = () => {
                     transition={{ delay: 0.4 }}
                 >
                     Warning: Working with me might result in an overload<br />
-                    of secure code & smashed vulnerabilities. Proceed with caution.
+                    of scalable systems & automated workflows. Proceed with caution.
                 </motion.p>
             </div>
 

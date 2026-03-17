@@ -7,22 +7,40 @@ import styles from './Skills.module.css'
 // Skill data for mobile grid view
 const skillCategories = [
     {
-        id: 'security',
-        label: 'Cyber Security',
+        id: 'ai',
+        label: 'AI/ML & Systems',
         color: '#00ff88',
-        skills: ['Pentesting', 'Web App Security', 'Network Security', 'Malware Analysis', 'Reverse Engineering', 'Burp Suite', 'Metasploit', 'Nmap', 'Wireshark', 'Nessus']
+        skills: ['AI Workflow Automation', 'LLM Integrations', 'Agent Systems', 'API Orchestration', 'System Design', 'Automation Pipelines']
     },
     {
-        id: 'dev',
-        label: 'Development',
+        id: 'frontend',
+        label: 'Frontend Development',
         color: '#00d4ff',
-        skills: ['Python', 'C++', 'Go', 'Bash', 'JavaScript', 'React', 'Node.js', 'SQL', 'Solidity']
+        skills: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Framer Motion']
     },
     {
-        id: 'ops',
-        label: 'Ops & Tools',
+        id: 'backend',
+        label: 'Backend Development',
         color: '#bd00ff',
-        skills: ['Linux', 'Git', 'Docker', 'Risk Management', 'Incident Response']
+        skills: ['Node.js', 'Express.js', 'REST APIs', 'Auth Systems', 'Backend Workflows']
+    },
+    {
+        id: 'database',
+        label: 'Database & Data',
+        color: '#ffaa00',
+        skills: ['PostgreSQL', 'Supabase', 'MongoDB', 'Database Design', 'Query Optimization']
+    },
+    {
+        id: 'cloud',
+        label: 'Cloud & Tools',
+        color: '#ff6b6b',
+        skills: ['Git', 'Vercel', 'API Integration', 'Email APIs', 'QR Code Systems']
+    },
+    {
+        id: 'security',
+        label: 'Security & Auth',
+        color: '#50fa7b',
+        skills: ['JWT', 'RBAC', 'Secure Auth Flows']
     }
 ]
 

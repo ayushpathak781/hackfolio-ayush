@@ -36,9 +36,9 @@ const footerLinks = [
 ]
 
 const socialIcons = [
-    { icon: <Github />, url: 'https://github.com/Karthigaiselvam-R-official', label: 'GitHub' },
-    { icon: <LinkedIn />, url: 'https://www.linkedin.com/in/karthigaiselvam-r-7b9197258/', label: 'LinkedIn' },
-    { icon: <Mail />, url: 'mailto:karthigaiselvamr.cs2022@gmail.com', label: 'Email' },
+    { icon: <Github />, url: 'https://github.com/ayushpathak781', label: 'GitHub' },
+    { icon: <LinkedIn />, url: 'https://www.linkedin.com/in/ayush-pathak-8137151a9', label: 'LinkedIn' },
+    { icon: <Mail />, url: 'mailto:ayushpathak98812@gmail.com', label: 'Email' },
 ]
 
 function Footer() {
@@ -51,12 +51,12 @@ function Footer() {
                     {/* Logo & Description */}
                     <div className={styles.footerBrand}>
                         <a href="#home" className={styles.logo}>
-                            <span className="gradient-text">K</span>arthigaiselvam
-                            <span className={styles.logoAccent}>.R</span>
+                            <span className="gradient-text">A</span>yush
+                            <span className={styles.logoAccent}>.Pathak</span>
                         </a>
                         <p className={styles.tagline}>
-                            Security Researcher & Software Developer<br />
-                            Chennai Institute of Technology
+                            AI Systems & Development Engineer<br />
+                            Chandigarh University
                         </p>
                     </div>
 
@@ -95,7 +95,7 @@ function Footer() {
                 {/* Bottom */}
                 <div className={styles.footerBottom}>
                     <p className={styles.copyright}>
-                        © {currentYear} Karthigaiselvam R. All rights reserved.
+                        © {currentYear} Ayush Pathak. All rights reserved.
                     </p>
                     <p className={styles.madeWith}>
                         Crafted with passion & purpose

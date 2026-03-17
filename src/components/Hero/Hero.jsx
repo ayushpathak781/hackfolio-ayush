@@ -31,31 +31,31 @@ const Lock = () => (
 
 // Typewriter effect for roles
 const roles = [
-    "Security Researcher",
-    "Penetration Tester",
-    "Software Developer",
-    "Cyber Security Enthusiast",
+    "AI Systems Engineer",
+    "Full Stack Developer",
+    "Automation Architect",
+    "Backend Engineer",
 ]
 
 // Dynamic hero quotes - randomly selected on page load
 const heroQuotes = [
-    `Developer by day, security researcher by obsession. I create elegant software while constantly questioning: "How could this be exploited?" — then I fix it before anyone else finds out.`,
+    `I don't just write code — I engineer systems. From AI-driven automation to scalable backends, I turn complex problems into structured, production-ready solutions that actually work.`,
 
-    `The best defense is knowing how to attack. I build software that creates — and break systems to understand their limits. A Security Researcher who codes with purpose and a Developer who thinks like an adversary.`,
+    `Automation isn't about replacing people — it's about amplifying them. I build AI workflows, APIs, and system architectures that eliminate friction and let teams focus on what matters.`,
 
-    `Code is poetry. Security is its shield. Crafting digital experiences that inspire confidence. I blend the art of software creation with the science of security — because great software deserves to be unbreakable.`,
+    `Every great system starts with a clear architecture. I design and build full-stack platforms, AI integrations, and backend workflows that scale from prototype to production.`,
 
-    `Heroes don't wait for vulnerabilities to be exploited. From the first line of code to the final deployment — I build with security in mind, defend with developer expertise, and protect what matters.`,
+    `The intersection of AI and software engineering is where I thrive. Building intelligent systems, designing APIs, crafting workflows — turning ambitious ideas into deployed reality.`,
 
-    `In a world of vulnerabilities, I choose to be the solution. Driven by curiosity, guided by precision. I transform ideas into resilient applications and challenges into opportunities for better security.`,
+    `I build the invisible infrastructure that makes things work. AI pipelines, authentication systems, database architectures — the backbone that powers great user experiences.`,
 
-    `Every vulnerability I find today protects someone tomorrow. Born from curiosity, shaped by code. I'm a developer who asks "what if?" and a security researcher who answers "not on my watch."`,
+    `From concept to deployment, I think in systems. AI automation, backend APIs, and scalable architectures — engineered to be reliable, efficient, and ready for the real world.`,
 
-    `The line between creation and destruction is thin — I walk it with intention. Building systems that scale. Breaking assumptions that don't. A developer's heart with a hacker's instinct. Where innovation meets vigilance, that's where you'll find me.`,
+    `Code is a tool. Systems thinking is the craft. I combine AI, full-stack development, and automation to build platforms that solve real problems at scale.`,
 
-    `Some dream of a safer internet. I'm building it — one secure application at a time. Code is my canvas. Security is my signature. Together, they create experiences worth protecting.`,
+    `I'm an engineer who builds with intention. Every API endpoint, every workflow, every system module — designed for performance, built for scale, shipped with confidence.`,
 
-    `I am two minds in one — the builder who dreams and the breaker who tests those dreams. Developer, Researcher. Both voices in harmony. Building software that doesn't just run — it survives.`
+    `Complex problems deserve elegant systems. I architect AI-powered workflows and full-stack platforms that transform chaos into clarity — one well-designed module at a time.`
 ]
 
 // ============================================
@@ -70,17 +70,17 @@ const HoloTerminal = () => {
     const [showCursor, setShowCursor] = useState(true)
 
     const codeLines = [
-        { text: '> Initializing security scan...', color: '#888', delay: 0 },
-        { text: '> Target: Karthigaiselvam.dev', color: '#00ff88', delay: 100 },
+        { text: '> Initializing system deploy...', color: '#888', delay: 0 },
+        { text: '> Target: AyushPathak.dev', color: '#00ff88', delay: 100 },
         { text: '', color: '#fff', delay: 50 },
-        { text: 'class SecurityResearcher:', color: '#ff79c6', delay: 80 },
+        { text: 'class AISystemsEngineer:', color: '#ff79c6', delay: 80 },
         { text: '    def __init__(self):', color: '#8be9fd', delay: 80 },
-        { text: '        self.name = "Karthigaiselvam"', color: '#f1fa8c', delay: 60 },
-        { text: '        self.role = "Security Researcher"', color: '#f1fa8c', delay: 60 },
-        { text: '        self.status = "ACTIVE"', color: '#50fa7b', delay: 60 },
+        { text: '        self.name = "Ayush Pathak"', color: '#f1fa8c', delay: 60 },
+        { text: '        self.role = "AI Systems Engineer"', color: '#f1fa8c', delay: 60 },
+        { text: '        self.status = "BUILDING"', color: '#50fa7b', delay: 60 },
         { text: '', color: '#fff', delay: 50 },
-        { text: '> Scan complete. No vulnerabilities found.', color: '#00ff88', delay: 100 },
-        { text: '> System secured ✓', color: '#50fa7b', delay: 150 },
+        { text: '> All systems operational.', color: '#00ff88', delay: 100 },
+        { text: '> Deployment successful ✓', color: '#50fa7b', delay: 150 },
     ]
 
     // Cursor blink
@@ -177,7 +177,7 @@ const HoloTerminal = () => {
                     <span className={styles.pulsingDot} /> CONNECTED
                 </span>
                 <span className={styles.holoFooterItem}>ENCRYPTION: AES-256</span>
-                <span className={styles.holoFooterItem}>FIREWALL: ACTIVE</span>
+                <span className={styles.holoFooterItem}>SYSTEMS: ONLINE</span>
             </div>
         </div>
     )
@@ -308,8 +308,8 @@ function Hero() {
         }
     }, [typedQuote, quoteIndex, typingStarted])
 
-    const firstName = "Karthigaiselvam"
-    const lastName = "R"
+    const firstName = "Ayush"
+    const lastName = "Pathak"
 
     // Fetch GitHub stats
     useEffect(() => {
@@ -324,7 +324,7 @@ function Hero() {
                     headers['Authorization'] = `token ${token}`
                 }
 
-                const response = await fetch('https://api.github.com/users/Karthigaiselvam-R-official', { headers })
+                const response = await fetch('https://api.github.com/users/ayushpathak781', { headers })
 
                 if (response.ok) {
                     const data = await response.json()
@@ -467,28 +467,6 @@ function Hero() {
                         </motion.a>
                     </motion.div>
 
-                    {/* Stats */}
-                    <motion.div
-                        className={styles.stats}
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ delay: 1.2 }}
-                    >
-                        <div className={styles.stat}>
-                            <span className={styles.statNumber}>9.05</span>
-                            <span className={styles.statLabel}>CGPA</span>
-                        </div>
-                        <div className={styles.statDivider}></div>
-                        <div className={styles.stat}>
-                            <span className={styles.statNumber}>990+</span>
-                            <span className={styles.statLabel}>LeetCode</span>
-                        </div>
-                        <div className={styles.statDivider}></div>
-                        <div className={styles.stat}>
-                            <span className={styles.statNumber}>{githubStats.repos || '17'}+</span>
-                            <span className={styles.statLabel}>GitHub Repos</span>
-                        </div>
-                    </motion.div>
                 </motion.div>
 
                 {/* ====== NEW HOLOGRAPHIC TERMINAL VISUAL ====== */}
@@ -516,7 +494,7 @@ function Hero() {
                         animate={{ y: [0, -3, 0] }}
                         transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
                     >
-                        $ nmap -sV
+                        $ npm run deploy
                     </motion.div>
 
                     <motion.div
@@ -525,7 +503,7 @@ function Hero() {
                         animate={{ y: [0, 3, 0] }}
                         transition={{ repeat: Infinity, duration: 5, ease: "easeInOut" }}
                     >
-                        $ sudo ./exploit
+                        $ python agent.py
                     </motion.div>
 
                     {/* Port Badge - Left Side */}
@@ -535,9 +513,9 @@ function Hero() {
                         animate={{ y: [0, -2, 0] }}
                         transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
                     >
-                        <span className={styles.portLabel}>PORT</span>
-                        <span className={styles.portNumber}>443</span>
-                        <span className={styles.portStatus}>OPEN</span>
+                        <span className={styles.portLabel}>API</span>
+                        <span className={styles.portNumber}>3000</span>
+                        <span className={styles.portStatus}>LIVE</span>
                     </motion.div>
 
 
@@ -555,7 +533,7 @@ function Hero() {
                         }}
                         transition={{ repeat: Infinity, duration: 3 }}
                     >
-                        <span className={styles.cveText}>CVE-2026</span>
+                        <span className={styles.cveText}>AI-2026</span>
                     </motion.div>
 
                     {/* Circuit Lines */}

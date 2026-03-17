@@ -44,25 +44,15 @@ const Loader = () => (
 )
 
 // GitHub Config
-const GITHUB_USERNAME = 'Karthigaiselvam-R-official'
+const GITHUB_USERNAME = 'ayushpathak781'
 // GitHub Token for 5000 requests/hour (set in .env.local as VITE_GITHUB_TOKEN)
 const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN || ''
 
 // Custom descriptions for known projects
-const projectDescriptions = {
-    'AsusTufFanControl_Linux': 'A powerful system control utility for ASUS TUF and ROG laptops on Linux. Features advanced Fan Control, Battery Health, and Aura Sync RGB.',
-    'Vulnerability_Scanner': 'Automated security scanning tool for web applications. Detects SQLi, XSS, CSRF, and SSRF vulnerabilities.',
-    '403-bypass3r': 'Advanced script to bypass 403 Forbidden errors during penetration testing and bug bounty hunting.',
-    'Smart_Attendance': 'Face recognition based attendance system using Python and OpenCV. Efficient and automated.',
-    'Land_Registry_Using_BlockChain': 'Blockchain-based land registry system built with Solidity and Web3.js.',
-}
+const projectDescriptions = {}
 
 // Custom images for known projects
-const projectImages = {
-    'AsusTufFanControl_Linux': 'https://raw.githubusercontent.com/Karthigaiselvam-R-official/AsusTufFanControl_Linux/main/resources/SystemInfo.png',
-    '403-bypass3r': 'https://raw.githubusercontent.com/Karthigaiselvam-R-official/403-bypass3r/main/Pasted%20image.png',
-    'Smart_Attendance': 'https://raw.githubusercontent.com/Karthigaiselvam-R-official/Smart_Attendance/main/Screenshot%202024-10-06%20194055.png',
-}
+const projectImages = {}
 
 // Language colors for GitHub
 const getLanguageColor = (language) => {
@@ -295,7 +285,7 @@ function Projects() {
                             <span className="gradient-text">Featured Project Vault</span>
                         </h2>
                         <p className="section-subtitle">
-                            Security tools and applications - fetched live from GitHub
+                            Projects and applications - fetched live from GitHub
                             {loading && <Loader />}
                             {error && <span style={{ color: '#ff5555', marginLeft: '10px' }}>Error: {error}</span>}
                         </p>

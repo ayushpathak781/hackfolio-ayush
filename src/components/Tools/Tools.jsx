@@ -3,18 +3,18 @@ import styles from './Tools.module.css'
 
 // Tool icons (using inline SVGs for common security/dev tools)
 const tools = [
-    { name: 'Burp Suite', color: '#ff6433' },
-    { name: 'Nmap', color: '#00bcd4' },
-    { name: 'Wireshark', color: '#1679a7' },
-    { name: 'Metasploit', color: '#2596be' },
-    { name: 'Docker', color: '#2496ed' },
-    { name: 'Python', color: '#3776ab' },
-    { name: 'Linux', color: '#fcc624' },
+    { name: 'React', color: '#61dafb' },
+    { name: 'Next.js', color: '#ffffff' },
+    { name: 'Node.js', color: '#339933' },
+    { name: 'TypeScript', color: '#3178c6' },
+    { name: 'Tailwind', color: '#06b6d4' },
+    { name: 'PostgreSQL', color: '#336791' },
+    { name: 'Supabase', color: '#3ecf8e' },
+    { name: 'MongoDB', color: '#47a248' },
     { name: 'Git', color: '#f05032' },
     { name: 'VS Code', color: '#007acc' },
+    { name: 'Vercel', color: '#ffffff' },
     { name: 'Postman', color: '#ff6c37' },
-    { name: 'Figma', color: '#f24e1e' },
-    { name: 'MongoDB', color: '#47a248' },
 ]
 
 const Tools = () => {

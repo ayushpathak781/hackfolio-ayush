@@ -44,20 +44,20 @@ const Download = () => (
 const highlights = [
     {
         icon: <Target />,
-        title: 'Problem Solver',
-        description: '990+ LeetCode problems solved',
+        title: 'AI Systems',
+        description: 'AI workflows, LLM integrations & automation',
         color: 'primary'
     },
     {
         icon: <Shield />,
-        title: 'Security Expert',
-        description: 'Pen testing & vulnerability research',
+        title: 'Backend Engineer',
+        description: 'APIs, auth systems & database architecture',
         color: 'accent'
     },
     {
         icon: <Code />,
-        title: 'Software Developer',
-        description: 'Python, C++, JavaScript, Qt',
+        title: 'Full Stack Developer',
+        description: 'React, Next.js, Node.js, TypeScript',
         color: 'warning'
     }
 ]
@@ -99,12 +99,11 @@ function About() {
                                 </span>
                                 <br /><br />
                                 <span className={styles.outputSection}>
-                                    <span className={styles.outputKey}>Name:</span> Karthigaiselvam R<br />
-                                    <span className={styles.outputKey}>Role:</span> Security Researcher<br />
-                                    <span className={styles.outputKey}>Education:</span> B.E. CSE (Cyber Security)<br />
-                                    <span className={styles.outputKey}>College:</span> Chennai Institute of Technology<br />
-                                    <span className={styles.outputKey}>CGPA:</span> 9.05 / 10<br />
-                                    <span className={styles.outputKey}>Batch:</span> 2022 - 2026<br />
+                                    <span className={styles.outputKey}>Name:</span> Ayush Pathak<br />
+                                    <span className={styles.outputKey}>Role:</span> AI Systems & Dev Engineer<br />
+                                    <span className={styles.outputKey}>Education:</span> BCA<br />
+                                    <span className={styles.outputKey}>College:</span> Chandigarh University<br />
+                                    <span className={styles.outputKey}>Batch:</span> 2024 - 2027<br />
                                 </span>
                                 <br />
                                 <span className="terminal-line">
@@ -113,9 +112,9 @@ function About() {
                                 </span>
                                 <br /><br />
                                 <span className="terminal-output">
-                                    "Security is not a product,<br />
-                                    but a process."<br />
-                                    — Bruce Schneier
+                                    "The best way to predict the future<br />
+                                    is to build it."<br />
+                                    — Alan Kay
                                 </span>
                             </div>
                         </div>
@@ -127,8 +126,8 @@ function About() {
                             animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
                             transition={{ delay: 0.6 }}
                         >
-                            <span className={styles.expNumber}>3+</span>
-                            <span className={styles.expLabel}>Industry<br />Internships</span>
+                            <span className={styles.expNumber}>1+</span>
+                            <span className={styles.expLabel}>Industry<br />Internship</span>
                         </motion.div>
                     </motion.div>
 
@@ -145,7 +144,7 @@ function About() {
                                 About Me
                             </span>
                             <h2 className="section-title">
-                                <span className="gradient-text">Security Researcher &<br />Software Developer</span>
+                                <span className="gradient-text">AI Systems Engineer &<br />Full Stack Developer</span>
                             </h2>
                         </div>
 
@@ -156,7 +155,7 @@ function About() {
                             transition={{ delay: 0.5 }}
                         >
                             <p className={styles.bio}>
-                                I'm Karthigaiselvam R — a developer with a security-first mindset. Pursuing B.E. CSE (Cyber Security) at Chennai Institute of Technology with 9.05 CGPA. Completed 5 industry internships at Palo Alto Networks, RecruitNxt Technologies, THECYBERHOST, Learnflu & AirosSpace R&D — building expertise across mobile pentesting, cloud security & threat intelligence.
+                                I'm Ayush Pathak, an AI Systems & Development Engineer focused on building scalable automation systems and backend-driven platforms. Currently pursuing BCA at Chandigarh University and working at the Technology Business Incubator (CU-TBI), I design AI-powered workflows, APIs, and system architectures that reduce manual processes and improve operational efficiency. My work centers on turning complex problems into structured, production-ready systems.
                             </p>
                         </motion.div>
 
@@ -184,7 +183,7 @@ function About() {
 
                         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '8px' }}>
                             <motion.a
-                                href="https://drive.google.com/file/d/1lXWJv1ttyhQlEEeKlDJYr1b7A33tFwye/view"
+                                href="https://drive.google.com/file/d/1CG7HdSA004Rw9G8pwmOZzVj8rA5Alg9r/view?usp=sharing"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn btn-primary"

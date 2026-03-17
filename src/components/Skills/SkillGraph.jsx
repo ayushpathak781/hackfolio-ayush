@@ -11,55 +11,59 @@ const Fingerprint = () => (
 // Skill Data Structure
 const skillData = {
     id: 'core',
-    label: 'Karthigaiselvam',
+    label: 'Ayush Pathak',
     type: 'core',
     children: [
         {
-            id: 'security',
-            label: 'Cyber Security',
+            id: 'ai',
+            label: 'AI/ML & Systems',
             type: 'category',
             color: '#00ff88',
             children: [
-                { id: 'pentest', label: 'Pentesting', type: 'skill' },
-                { id: 'websec', label: 'Web App Security', type: 'skill' },
-                { id: 'network', label: 'Network Security', type: 'skill' },
-                { id: 'malware', label: 'Malware Analysis', type: 'skill' },
-                { id: 'reveng', label: 'Reverse Engineering', type: 'skill' },
-                { id: 'burp', label: 'Burp Suite', type: 'skill' },
-                { id: 'meta', label: 'Metasploit', type: 'skill' },
-                { id: 'nmap', label: 'Nmap', type: 'skill' },
-                { id: 'wireshark', label: 'Wireshark', type: 'skill' },
-                { id: 'nessus', label: 'Nessus', type: 'skill' },
+                { id: 'ai-auto', label: 'AI Workflow Automation', type: 'skill' },
+                { id: 'llm', label: 'LLM Integrations', type: 'skill' },
+                { id: 'agents', label: 'Agent Systems', type: 'skill' },
+                { id: 'api-orch', label: 'API Orchestration', type: 'skill' },
+                { id: 'sysdesign', label: 'System Design', type: 'skill' },
+                { id: 'pipelines', label: 'Automation Pipelines', type: 'skill' },
             ]
         },
         {
-            id: 'dev',
-            label: 'Development',
+            id: 'frontend',
+            label: 'Frontend',
             type: 'category',
             color: '#00d4ff',
             children: [
-                { id: 'python', label: 'Python', type: 'skill' },
-                { id: 'cpp', label: 'C++', type: 'skill' },
-                { id: 'go', label: 'Go', type: 'skill' },
-                { id: 'bash', label: 'Bash', type: 'skill' },
-                { id: 'js', label: 'JavaScript', type: 'skill' },
+                { id: 'nextjs', label: 'Next.js', type: 'skill' },
                 { id: 'react', label: 'React', type: 'skill' },
-                { id: 'node', label: 'Node.js', type: 'skill' },
-                { id: 'sql', label: 'SQL', type: 'skill' },
-                { id: 'solidity', label: 'Solidity', type: 'skill' },
+                { id: 'ts', label: 'TypeScript', type: 'skill' },
+                { id: 'tailwind', label: 'Tailwind CSS', type: 'skill' },
+                { id: 'framer', label: 'Framer Motion', type: 'skill' },
             ]
         },
         {
-            id: 'ops',
-            label: 'Ops & Tools',
+            id: 'backend',
+            label: 'Backend',
             type: 'category',
             color: '#bd00ff',
             children: [
-                { id: 'linux', label: 'Linux', type: 'skill' },
-                { id: 'git', label: 'Git', type: 'skill' },
-                { id: 'docker', label: 'Docker', type: 'skill' },
-                { id: 'risk', label: 'Risk Management', type: 'skill' },
-                { id: 'incident', label: 'Incident Response', type: 'skill' },
+                { id: 'node', label: 'Node.js', type: 'skill' },
+                { id: 'express', label: 'Express.js', type: 'skill' },
+                { id: 'restapi', label: 'REST APIs', type: 'skill' },
+                { id: 'auth', label: 'Auth Systems', type: 'skill' },
+                { id: 'workflows', label: 'Backend Workflows', type: 'skill' },
+            ]
+        },
+        {
+            id: 'database',
+            label: 'Database',
+            type: 'category',
+            color: '#ffaa00',
+            children: [
+                { id: 'postgres', label: 'PostgreSQL', type: 'skill' },
+                { id: 'supabase', label: 'Supabase', type: 'skill' },
+                { id: 'mongo', label: 'MongoDB', type: 'skill' },
+                { id: 'dbdesign', label: 'Database Design', type: 'skill' },
             ]
         }
     ]
@@ -91,19 +95,15 @@ const SkillGraph = () => {
             const startAngle = angle - angleSpan / 2
 
             cat.children.forEach((skill, j) => {
-                // Fix: Custom spread for each category based on density/preference
-                const isSecurity = cat.id === 'security'
-                const isOps = cat.id === 'ops'
+                let spreadFactor = 0.7
+                let startOffset = 0.15
 
-                let spreadFactor = 0.7 // Default (Dev)
-                let startOffset = 0.15 // Default offset
-
-                if (isSecurity) {
-                    spreadFactor = 1.03 // Wide for Security
-                    startOffset = -0.01
-                } else if (isOps) {
-                    spreadFactor = 0.65 // Reduce gap for Ops (User request)
-                    startOffset = 0.17 // Center the tighter cluster
+                if (cat.id === 'ai') {
+                    spreadFactor = 0.9
+                    startOffset = 0.05
+                } else if (cat.id === 'database') {
+                    spreadFactor = 0.65
+                    startOffset = 0.17
                 }
 
                 const skillAngle = startAngle + (j / (skillCount - 1)) * angleSpan * spreadFactor + (angleSpan * startOffset)

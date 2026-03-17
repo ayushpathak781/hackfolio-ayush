@@ -47,56 +47,88 @@ const CloseIcon = () => (
     </svg>
 )
 
+const Database = () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <ellipse cx="12" cy="5" rx="9" ry="3" />
+        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+    </svg>
+)
+
+const Layers = () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <polygon points="12 2 2 7 12 12 22 7 12 2" />
+        <polyline points="2 17 12 22 22 17" />
+        <polyline points="2 12 12 17 22 12" />
+    </svg>
+)
+
+const Zap = () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+    </svg>
+)
+
 const experiences = [
     {
         id: 0,
-        role: "Cybersecurity Intern",
-        company: "Learnflu",
-        date: "Jan 2025 - May 2025",
-        skills: ["Defensive Security", "Threat Intelligence", "SOC Analysis", "Incident Response"],
-        image: "/images/Karthigaiselvam RLearnflu.png",
-        icon: <Briefcase />,
-        color: '#ffaa00'
-    },
-    {
-        id: 1,
-        role: "Cybersecurity Virtual Intern",
-        company: "Palo Alto Networks",
-        date: "Jul 2024 – Sep 2024",
-        skills: ["Network Security", "Cloud Security", "SOC", "Prisma Cloud"],
-        link: "https://www.linkedin.com/posts/karthigaiselvam-r-7b9197258_cybersecurity-paloaltonetworks-virtualinternship-activity-7251896001270042624-LQEE",
-        icon: <Shield />,
+        role: "AI Automation Systems",
+        company: "Designing AI-driven workflows and automation pipelines using LLM integrations, agent systems, and API orchestration to reduce manual processes.",
+        date: "Jan 2026 – Present",
+        skills: ["LLM Integrations", "Agent Systems", "API Orchestration"],
+        link: "https://www.linkedin.com/in/ayush-pathak-8137151a9",
+        icon: <Zap />,
         color: '#00ff88'
     },
     {
+        id: 1,
+        role: "Backend Engineering",
+        company: "Building scalable backend systems with Node.js, Express, and structured architectures focused on performance, security, and maintainability.",
+        date: "Jan 2026 – Present",
+        skills: ["Node.js", "Express", "Scalable Architecture"],
+        link: "https://www.linkedin.com/in/ayush-pathak-8137151a9",
+        icon: <Code />,
+        color: '#bd00ff'
+    },
+    {
         id: 2,
-        role: "Cyber Security Project Lead",
-        company: "RecuritNxt Technologies",
-        date: "Nov 2023 – May 2024",
-        skills: ["Project Management", "VAPT", "Team Leadership"],
-        link: "https://www.linkedin.com/posts/karthigaiselvam-r-7b9197258_cybersecurity-projectmanagement-teamwork-activity-7240375012514275330-64AV",
+        role: "Frontend Development",
+        company: "Developing high-performance, responsive interfaces using Next.js, React, and Tailwind CSS with focus on usability and speed.",
+        date: "Jan 2026 – Present",
+        skills: ["Next.js", "React", "Tailwind CSS"],
+        link: "https://www.linkedin.com/in/ayush-pathak-8137151a9",
         icon: <Target />,
         color: '#00d4ff'
     },
     {
         id: 3,
-        role: "Android Penetration Tester",
-        company: "THECYBERHOST Pvt. Ltd.",
-        date: "Aug 2023 – Sep 2023",
-        skills: ["MobSF", "Burp Suite", "ADB"],
-        link: "https://www.linkedin.com/posts/karthigaiselvam-r-7b9197258_android-cybersecurity-vapt-activity-7240356634386931712-h20e",
+        role: "API Development & Integration",
+        company: "Creating and integrating REST APIs with secure authentication, third-party services, and modular backend logic.",
+        date: "Jan 2026 – Present",
+        skills: ["REST APIs", "Authentication", "Third-party APIs"],
+        link: "https://www.linkedin.com/in/ayush-pathak-8137151a9",
         icon: <Shield />,
-        color: '#bd00ff'
+        color: '#ffaa00'
     },
     {
         id: 4,
-        role: "Software Developer",
-        company: "AirosSpace R&D Pvt. Ltd.",
-        date: "Mar 2023 – Jun 2023",
-        skills: ["Python", "C++", "Qt6/QML"],
-        link: "https://www.linkedin.com/posts/karthigaiselvam-r-7b9197258_airospace-softwaredevelopment-qt-activity-7240355243736113152-v9ce",
-        icon: <Code />,
+        role: "Database & Data Systems",
+        company: "Designing efficient database schemas using PostgreSQL, Supabase, and MongoDB with optimized queries and data handling.",
+        date: "Jan 2026 – Present",
+        skills: ["PostgreSQL", "Supabase", "MongoDB"],
+        link: "https://www.linkedin.com/in/ayush-pathak-8137151a9",
+        icon: <Database />,
         color: '#ff6b6b'
+    },
+    {
+        id: 5,
+        role: "System Design & Architecture",
+        company: "Structuring scalable systems with modular design, workflow pipelines, and clean architecture for long-term maintainability.",
+        date: "Jan 2026 – Present",
+        skills: ["Modular Design", "Workflow Pipelines", "Clean Architecture"],
+        link: "https://www.linkedin.com/in/ayush-pathak-8137151a9",
+        icon: <Layers />,
+        color: '#50fa7b'
     }
 ]
 
